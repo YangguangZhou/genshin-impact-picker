@@ -37,7 +37,7 @@
 			data-ad-slot={adSize[size]}
 			class="adsbygoogle"
 			style="display:block"
-			data-ad-client="ca-pub-1874822310102113"
+			data-ad-client="ca-pub-2597042766299857"
 			data-ad-format="auto"
 			data-full-width-responsive="true"
 		/>
@@ -47,7 +47,7 @@
 		<!-- Google Ad -->
 		<script
 			async
-			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1874822310102113"
+			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2597042766299857"
 			crossorigin="anonymous"></script>
 		<!-- Google Ad -->
 
