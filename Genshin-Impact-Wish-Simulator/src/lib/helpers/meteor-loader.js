@@ -40,7 +40,7 @@ export const check = async () => {
 
 const safariMeteorLoader = () => {
 	assets.update((v) => {
-		meteorList.forEach((vid) => (v[vid] = `/videos/${vid}`));
+		meteorList.forEach((vid) => (v[vid] = `https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/videos/${vid}`));
 		return v;
 	});
 	return true;
@@ -53,7 +53,7 @@ export const loadAnimation = async () => {
 	const totalItem = meteorList.length;
 	for (let i = 0; i < totalItem; i++) {
 		loadProggress.set({ rarity: itemRarity[i], progress: 0, totalItem, itemIndex: i });
-		const response = await fetch(`/videos/${meteorList[i]}`);
+		const response = await fetch(`https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/videos/${meteorList[i]}`);
 		const data = new Response(streamResponse(response));
 		const blob = await data.blob();
 
