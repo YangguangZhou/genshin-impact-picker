@@ -128,28 +128,28 @@
 
 	<link
 		rel="preload"
-		href="/fonts/optimized_global_web.woff2"
+		href="https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_global_web.woff2"
 		as="font"
 		type="font/woff2"
 		crossorigin
 	/>
 	<link
 		rel="preload"
-		href="/fonts/optimized_th_web.woff2"
+		href="https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_th_web.woff2"
 		as="font"
 		type="font/woff2"
 		crossorigin
 	/>
 	<link
 		rel="preload"
-		href="/fonts/optimized_jp_web.woff2"
+		href="https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_jp_web.woff2"
 		as="font"
 		type="font/woff2"
 		crossorigin
 	/>
 	<link
 		rel="preload"
-		href="/fonts/optimized_zh_web.woff2"
+		href="https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_zh_web.woff2"
 		as="font"
 		type="font/woff2"
 		crossorigin
@@ -193,28 +193,28 @@
 
 	@font-face {
 		font-family: 'GI_Global_Web';
-		src: url('/fonts/optimized_global_web.woff2') format('woff2');
+		src: url('https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_global_web.woff2') format('woff2');
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
 		font-family: 'GI_JA_Web';
-		src: url('/fonts/optimized_jp_web.woff2') format('woff2');
+		src: url('https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_jp_web.woff2') format('woff2');
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
 		font-family: 'GI_TH_Web';
-		src: url('/fonts/optimized_th_web.woff2') format('woff2');
+		src: url('https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_th_web.woff2') format('woff2');
 		font-weight: normal;
 		font-style: normal;
 	}
 
 	@font-face {
 		font-family: 'GI_ZH_Web';
-		src: url('/fonts/optimized_zh_web.woff2') format('woff2');
+		src: url('https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/optimized_zh_web.woff2') format('woff2');
 		font-weight: normal;
 		font-style: normal;
 	}

@@ -38,11 +38,11 @@ const source = {
 	shopnav,
 	shopsubnav,
 	prevbanner,
-	wishBacksound: '/sfx/wish-backsound.ogg',
-	resultList: '/sfx/result-list.ogg',
-	reveal3Star: '/sfx/reveal-3star.ogg',
-	reveal4Star: '/sfx/reveal-4star.ogg',
-	reveal5Star: '/sfx/reveal-5star.ogg'
+	wishBacksound: 'https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/sfx/wish-backsound.ogg',
+	resultList: 'https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/sfx/result-list.ogg',
+	reveal3Star: 'https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/sfx/reveal-3star.ogg',
+	reveal4Star: 'https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/sfx/reveal-4star.ogg',
+	reveal5Star: 'https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/sfx/reveal-5star.ogg'
 };
 
 const sounds = {};
