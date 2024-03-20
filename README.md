@@ -1,4 +1,4 @@
-# 原神抽卡点名器
+# [原神抽卡点名器](https://genshin.jerryz.com.cn/)
 ![原神点名器](https://stats.deeptrain.net/repo/cyanial/genshin-impact-picker/?theme=light)
 
 [![Release](https://github.com/cyanial/genshin-impact-picker/actions/workflows/release.yml/badge.svg)](https://github.com/cyanial/genshin-impact-picker/actions/workflows/release.yml)[![Pages](https://github.com/cyanial/genshin-impact-picker/actions/workflows/page.yml/badge.svg)](https://github.com/cyanial/genshin-impact-picker/actions/workflows/page.yml)[![Build app](https://github.com/cyanial/genshin-impact-picker/actions/workflows/app.yml/badge.svg)](https://github.com/cyanial/genshin-impact-picker/actions/workflows/app.yml)
@@ -65,14 +65,14 @@ $ npm run tauri build
 
 ### Deploy with Netlify
 
-通过本按钮可直接一键部署至Netlify（本仓库已内置配置文件，**懒人专用**)
+通过本按钮可直接一键部署至Netlify（本仓库已内置配置文件，**懒人专用**）
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cyanial/genshin-impact-picker&base=Genshin-Impact-Wish-Simulator)
 
 
 ### Deploy with Vercel
 
-**暂未测试效果**
+网页版：[genshin.jerryz.com.cn](https://genshin.jerryz.com.cn/)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/cyanial/genshin-impact-picker)
 
