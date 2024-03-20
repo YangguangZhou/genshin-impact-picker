@@ -120,7 +120,7 @@
 
 	<link
 		rel="preload"
-		href="/fonts/aaqishu.woff"
+		href="https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/aaqishu.woff"
 		as="font"
 		type="font/woff"
 		crossorigin
@@ -222,7 +222,7 @@
 	
 	@font-face {
 		font-family: 'AAQISHU';
-		src: url('/fonts/aaqishu.woff') format('woff');
+		src: url('https://cdn.jerryz.com.cn/gh/YangguangZhou/genshin-impact-picker/electron-static/static/fonts/aaqishu.woff') format('woff');
 		font-style: normal;
 		font-weight: normal;
 	}
