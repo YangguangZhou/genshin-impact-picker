@@ -6,15 +6,22 @@ on:
    tags:
      - "v*"
 jobs:
-  Build:
+  app:
+    name: Build app
     uses: ./.github/workflows/app.yml
+  page:
+    name: Build&Update pages
+    if: false
+    uses: ./.github/workflows/page.yml
   release:
-    needs: Build
+    needs: app
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4.1.1
       - name: Download Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.4
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2.0.4
         with:
             files: ./**/genish-impact*.*
+            body_path: ./CHANGELOG.md

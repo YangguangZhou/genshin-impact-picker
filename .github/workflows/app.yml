@@ -8,27 +8,31 @@ on:
       - main # default branch
     paths:
       - electron-static/**/**
-      - Genshin-Impact-Wish-Simulator/**/**
+      - Genshin-Impact-Wish-Simulator/src-tauri/**/**
+ pull_request:
+    branches:
+      - main # default branch
+    paths:
+      - electron-static/**/**
+      - Genshin-Impact-Wish-Simulator/src-tauri/**/**
+
 
 jobs:
-  Page:
-    name: Build Pages
-    uses: ./.github/workflows/page.yml
   Build-app:
     name: Build app with Electron
-    needs: Page
     strategy:
+      fail-fast: false
       matrix:
         os: [windows,ubuntu,macos]
     runs-on: ${{ matrix.os }}-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4.1.1
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4.0.2
         with:
-          node-version: "16"
+          node-version: "20"
       - name: Cache NPM dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4.0.2
         with:
           path: ./electron-static/node_modules
           key: ${{ runner.os }}-npm-app-cache
@@ -38,16 +42,6 @@ jobs:
         run: |
          cd electron-static
          yarn install
-      - name: Download Artifact
-        uses: actions/download-artifact@v3
-      - name: extract new
-        if: runner.os == 'Linux' || runner.os == 'macOS'
-        run: |          
-         7z x ./frontend -oelectron-static/ -y
-      - name: extract new(For Windows)
-        if: runner.os == 'windows'
-        run: |          
-         7z x .\frontend -oelectron-static/ -y
       - name: Build
         run: |
          cd electron-static
@@ -57,67 +51,10 @@ jobs:
          cd electron-static
          7z a -tzip genish-impact-${{ runner.os }}-x64.zip ./genish-impact-*
       - name: Upload (${{ runner.os }})
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4.3.1
         with:
           name: genish-impact-${{ runner.os }}
           path: electron-static/genish-impact-${{ runner.os }}-x64.zip
   Build-Tauri:
     name: Build app with Tauri
-    strategy:
-      fail-fast: false
-      matrix:
-        os: [windows,ubuntu,macos]
-    runs-on: ${{ matrix.os }}-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: install Rust stable
-        uses: dtolnay/rust-toolchain@stable
-      - name: install dependencies (ubuntu only)
-        if: runner.os == 'Linux'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.0-dev libappindicator3-dev librsvg2-dev patchelf
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v4
-        with:
-          node-version: "16"
-      - name: Cache NPM dependencies
-        uses: actions/cache@v3
-        with:
-          path: ./Genshin-Impact-Wish-Simulator/node_modules
-          key: ${{ runner.OS }}-npm-frontend-cache
-          restore-keys: |
-            ${{ runner.OS }}-npm-frontend-cache
-      - name: Install Dependencies
-        run: |
-         cd Genshin-Impact-Wish-Simulator
-         yarn install
-      - name: Build
-        run: |
-         cd Genshin-Impact-Wish-Simulator
-         yarn run tauri build
-         ls
-      - name: Upload (Windows)
-        if: runner.os == 'windows'
-        uses: actions/upload-artifact@v3
-        with:
-          name: genish-impact-Tauri-${{ runner.os }}
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/
-      - name: Upload Appimage (Linux)
-        if: runner.os == 'Linux'
-        uses: actions/upload-artifact@v3
-        with:
-          name: genish-impact-Tauri-${{ runner.os }}-appimage
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/appimage/genish-impact_*.AppImage
-      - name: Upload deb (Linux)
-        if: runner.os == 'Linux'
-        uses: actions/upload-artifact@v3
-        with:
-          name: genish-impact-Tauri-${{ runner.os }}-deb
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/deb/genish-impact_*.deb
-      - name: Upload dmg (Macos)
-        if: runner.os == 'macos'
-        uses: actions/upload-artifact@v3
-        with:
-          name: genish-impact-Tauri-${{ runner.os }}
-          path: Genshin-Impact-Wish-Simulator/src-tauri/target/release/bundle/dmg/*
+    uses: ./.github/workflows/tauri.yml
