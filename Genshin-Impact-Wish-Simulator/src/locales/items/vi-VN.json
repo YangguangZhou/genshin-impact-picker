@@ -1,5 +1,6 @@
 {
 	"a-thousand-floating-dreams": "Cõi Mộng Ngàn Đêm",
+	"absolution": "Xá Tội",
 	"akuoumaru": "Akuoumaru",
 	"alley-hunter": "Thợ Săn Hẻm Tối",
 	"amos-bow": "Cung Amos",
@@ -38,6 +39,7 @@
 	"lithic-blade": "Thiên Nham Cổ Kiếm",
 	"lithic-spear": "Thương Thiên Nham",
 	"lost-prayer-to-the-sacred-winds": "Điển Tích Tây Phong",
+	"lumidouce-elegy": "Bi Ca Lumidouce",
 	"magic-guide": "Tóm Tắt Ma Pháp",
 	"makhaira-aquamarine": "Sắc Nước Makhaira",
 	"memory-of-dust": "Khóa Trần Thế",
@@ -59,6 +61,7 @@
 	"sacrificial-greatsword": "Đại Kiếm Tế Lễ",
 	"sacrificial-sword": "Kiếm Tế Lễ",
 	"sharpshooter_s-oath": "Lời Thề Xạ Thủ Thần",
+	"silvershower-heartstrings": "Màn Mưa Tơ Lòng",
 	"skyrider-sword": "Kiếm Phi Thiên",
 	"skyward-atlas": "Quyển Thiên Không",
 	"skyward-blade": "Thiên Không Kiếm",
@@ -71,6 +74,7 @@
 	"staff-of-homa": "Trượng Hộ Ma",
 	"staff-of-the-scarlet-sands": "Quyền Trượng Cát Đỏ",
 	"summit-shaper": "Kiếm Chước Phong",
+	"surfs-up": "Thời Khắc Lướt Sóng",
 	"the-alley-flash": "Tia Sáng Nơi Hẻm Tối",
 	"the-bell": "Kiếm Chuông",
 	"the-dockhands-assistant": "Kiếm Bến Tàu",
@@ -147,6 +151,10 @@
 		"name": "Chongyun",
 		"title": "Bòng Hình Băng Giá"
 	},
+	"clorinde": {
+		"name": "Clorinde",
+		"title": "Thắp Nến Diệt Bóng Tối"
+	},
 	"collei": {
 		"name": "Collei",
 		"title": "Mầm Non Tái Sinh"
@@ -170,6 +178,10 @@
 	"dori": {
 		"name": "Dori",
 		"title": "Kho Báu Vườn Mơ"
+	},
+	"emilie": {
+		"name": "Emilie",
+		"title": "Muôn Ngàn Hương Thơm"
 	},
 	"eula": {
 		"name": "Eula",
@@ -210,6 +222,10 @@
 	"jean": {
 		"name": "Jean",
 		"title": "Kỵ Sĩ Bồ Công Anh"
+	},
+	"kachina": {
+		"name": "Kachina",
+		"title": "Khoáng Thạch Ánh Vàng"
 	},
 	"kaedehara-kazuha": {
 		"name": "Kaedehara Kazuha",
@@ -275,6 +291,10 @@
 		"name": "Mona",
 		"title": "Thủy Kính Thiên Tinh"
 	},
+	"mualani": {
+		"name": "Mualani",
+		"title": "Người Đuổi Theo Sóng"
+	},
 	"nahida": {
 		"name": "Nahida",
 		"title": "Kết Tinh Bạch Thảo"
@@ -323,6 +343,10 @@
 		"name": "Sayu",
 		"title": "Ninja Mujina"
 	},
+	"sethos": {
+		"name": "Sethos",
+		"title": "Thước Đo Trí Tuệ"
+	},
 	"shenhe": {
 		"name": "Shenhe",
 		"title": "Thiên Thể Cô Độc"
@@ -330,6 +354,10 @@
 	"shikanoin-heizou": {
 		"name": "Shikanoin Heizou",
 		"title": "Con Tim Giao Hòa"
+	},
+	"sigewinne": {
+		"name": "Sigewinne",
+		"title": "Long Nữ Diệu Biến"
 	},
 	"sucrose": {
 		"name": "Sucrose",

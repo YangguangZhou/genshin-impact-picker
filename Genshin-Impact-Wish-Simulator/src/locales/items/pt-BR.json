@@ -1,5 +1,6 @@
 {
 	"a-thousand-floating-dreams": "Sonhos Flutuantes das Mil Noites",
+	"absolution": "Absolvição",
 	"akuoumaru": "Akuoumaru",
 	"alley-hunter": "Caçador do Beco",
 	"amos-bow": "Arco de Amos",
@@ -38,6 +39,7 @@
 	"lithic-blade": "Espada Antiga de Millelith",
 	"lithic-spear": "Lança de Millelith",
 	"lost-prayer-to-the-sacred-winds": "Oração Perdida aos Ventos Sagrados",
+	"lumidouce-elegy": "Elegia Lumidouce",
 	"magic-guide": "Guia de Magia",
 	"makhaira-aquamarine": "Água-Marinha de Mahara",
 	"memory-of-dust": "Memória da Poeira",
@@ -59,6 +61,7 @@
 	"sacrificial-greatsword": "Espadão do Sacrifício",
 	"sacrificial-sword": "Espada do Sacrifício",
 	"sharpshooter_s-oath": "Juramento de Sagitário",
+	"silvershower-heartstrings": "Cordas da Chuva Branca",
 	"skyrider-sword": "Espadão do Cavaleiro do Céu",
 	"skyward-atlas": "Atlas Celestial",
 	"skyward-blade": "Espada Celestial",
@@ -71,6 +74,7 @@
 	"staff-of-homa": "Báculo de Homa",
 	"staff-of-the-scarlet-sands": "Báculo das Areias Escarlates",
 	"summit-shaper": "Cortador de Montanhas",
+	"surfs-up": "Hora do Surfe",
 	"the-alley-flash": "Brilho do Beco",
 	"the-bell": "O Sino",
 	"the-dockhands-assistant": "A Doca",
@@ -147,6 +151,10 @@
 		"name": "Chongyun",
 		"title": "Pegadas na Neve"
 	},
+	"clorinde": {
+		"name": "Clorinde",
+		"title": "Segurando a Vela, Espreitando as Sombras"
+	},
 	"collei": {
 		"name": "Collei",
 		"title": "Broto de Renascimento"
@@ -170,6 +178,10 @@
 	"dori": {
 		"name": "Dori",
 		"title": "Tesouro do Jardim dos Sonhos"
+	},
+	"emilie": {
+		"name": "Emilie",
+		"title": "Vislumbres de Mil Aromas"
 	},
 	"eula": {
 		"name": "Eula",
@@ -210,6 +222,10 @@
 	"jean": {
 		"name": "Jean",
 		"title": "Cavaleira de Dandelion"
+	},
+	"kachina": {
+		"name": "Kachina",
+		"title": "Minério de Ouro Não Fundido"
 	},
 	"kaedehara-kazuha": {
 		"name": "Kaedehara Kazuha",
@@ -275,6 +291,10 @@
 		"name": "Mona",
 		"title": "Reflexão Astral"
 	},
+	"mualani": {
+		"name": "Mualani",
+		"title": "Surfista Perseguidora das Ondas"
+	},
 	"nahida": {
 		"name": "Nahida",
 		"title": "Pureza Restauradora"
@@ -323,6 +343,10 @@
 		"name": "Sayu",
 		"title": "Mujina Ninja"
 	},
+	"sethos": {
+		"name": "Sethos",
+		"title": "Medida da Sabedoria"
+	},
 	"shenhe": {
 		"name": "Shenhe",
 		"title": "Transcendência Solitária"
@@ -330,6 +354,10 @@
 	"shikanoin-heizou": {
 		"name": "Shikanoin Heizou",
 		"title": "Mente Condizente"
+	},
+	"sigewinne": {
+		"name": "Sigewinne",
+		"title": "A Filha Transmutada do Dragão"
 	},
 	"sucrose": {
 		"name": "Sucrose",
